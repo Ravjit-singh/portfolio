@@ -123,6 +123,113 @@ export default function Home() {
         </div>
 
       </section>
+      {/* 7. Experience / Milestones Header */}
+      <section className="mt-32 w-full max-w-4xl mx-auto mb-16 flex flex-col items-center">
+        <div className="text-center flex flex-col items-center select-none">
+          <h2 className="text-4xl md:text-5xl font-black uppercase tracking-tighter text-white leading-[0.85]">
+            Key
+          </h2>
+          <h2 className="text-5xl md:text-[6rem] font-black uppercase tracking-tighter text-[#1f1f1f] leading-[0.85] mt-2">
+            Milestones
+          </h2>
+        </div>
+      </section>
+
+      {/* 8. The Timeline List */}
+      <section className="w-full max-w-2xl mx-auto flex flex-col gap-8 md:gap-10">
+        
+        {/* Milestone 1 */}
+        <div className="group flex items-start justify-between cursor-pointer">
+          <div className="flex flex-col max-w-[85%]">
+            <h4 className="text-white text-lg md:text-xl font-bold tracking-tight group-hover:text-[#ff5a2c] transition-colors">
+              IIT Madras BS Degree
+            </h4>
+            <p className="text-[#888888] text-sm md:text-base font-medium mt-1 leading-relaxed">
+              Qualified for direct admission into the undergraduate program, advancing foundational knowledge in data and engineering.
+            </p>
+            <span className="text-[#555555] text-xs md:text-sm font-bold uppercase tracking-wider mt-3">
+              May 2026
+            </span>
+          </div>
+          <div className="text-[#ff5a2c] text-xl md:text-2xl transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1 mt-1">
+            ↗
+          </div>
+        </div>
+
+        {/* Milestone 2 */}
+        <div className="group flex items-start justify-between cursor-pointer">
+          <div className="flex flex-col max-w-[85%]">
+            <h4 className="text-white text-lg md:text-xl font-bold tracking-tight group-hover:text-[#ff5a2c] transition-colors">
+              GitHub Education
+            </h4>
+            <p className="text-[#888888] text-sm md:text-base font-medium mt-1 leading-relaxed">
+              Obtained official student developer membership, integrating professional version control and deployment pipelines.
+            </p>
+            <span className="text-[#555555] text-xs md:text-sm font-bold uppercase tracking-wider mt-3">
+              May 2026
+            </span>
+          </div>
+          <div className="text-[#ff5a2c] text-xl md:text-2xl transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1 mt-1">
+            ↗
+          </div>
+        </div>
+
+        {/* Milestone 3 */}
+        <div className="group flex items-start justify-between cursor-pointer">
+          <div className="flex flex-col max-w-[85%]">
+            <h4 className="text-white text-lg md:text-xl font-bold tracking-tight group-hover:text-[#ff5a2c] transition-colors">
+              GMSSS Sector 35, Chandigarh
+            </h4>
+            <p className="text-[#888888] text-sm md:text-base font-medium mt-1 leading-relaxed">
+              Class 12 student balancing core CBSE academics and JEE Main preparation alongside full-stack development.
+            </p>
+            <span className="text-[#555555] text-xs md:text-sm font-bold uppercase tracking-wider mt-3">
+              Present
+            </span>
+          </div>
+          <div className="text-[#ff5a2c] text-xl md:text-2xl transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1 mt-1">
+            ↗
+          </div>
+        </div>
+
+      </section>
+
+      {/* 9. Premium Tools Header */}
+      <section className="mt-32 w-full max-w-4xl mx-auto mb-12 flex flex-col items-center">
+        <div className="text-center flex flex-col items-center select-none">
+          <h2 className="text-4xl md:text-5xl font-black uppercase tracking-tighter text-white leading-[0.85]">
+            Premium
+          </h2>
+          <h2 className="text-5xl md:text-[6rem] font-black uppercase tracking-tighter text-[#1f1f1f] leading-[0.85] mt-2">
+            Tools
+          </h2>
+        </div>
+      </section>
+
+      {/* 10. Tools Grid */}
+      <section className="w-full max-w-3xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
+        
+        {/* Tool Cards */}
+        {[
+          { name: "Termux", sub: "Linux Environment", icon: "T" },
+          { name: "Acode", sub: "Code Editor", icon: "A" },
+          { name: "Next.js", sub: "React Framework", icon: "N" },
+          { name: "Godot 4", sub: "3D Game Engine", icon: "G" },
+          { name: "Supabase", sub: "Backend as a Service", icon: "S" },
+          { name: "Tailwind", sub: "CSS Framework", icon: "TW" },
+        ].map((tool, index) => (
+          <div key={index} className="bg-white/[0.03] border border-white/5 rounded-2xl p-4 md:p-5 flex items-center gap-4 hover:bg-white/[0.08] transition-colors duration-300 cursor-pointer">
+            <div className="w-10 h-10 md:w-12 md:h-12 bg-white rounded-xl flex items-center justify-center text-black font-black text-lg flex-shrink-0">
+              {tool.icon}
+            </div>
+            <div className="flex flex-col">
+              <span className="text-white font-bold text-sm md:text-base">{tool.name}</span>
+              <span className="text-[#888888] text-xs md:text-sm">{tool.sub}</span>
+            </div>
+          </div>
+        ))}
+        
+      </section>
 
       {/* Stats and Bento Boxes will go here next... */}
       {/* 3. The Stats Row */}
