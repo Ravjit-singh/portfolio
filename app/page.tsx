@@ -1,3 +1,8 @@
+"use client";
+
+export default function Home() {
+  // ... the rest of your code stays exactly the same
+
 export default function Home() {
   return (
     <main className="min-h-screen px-6 py-12 md:px-24 font-sans flex flex-col items-center">
@@ -229,6 +234,125 @@ export default function Home() {
           </div>
         ))}
         
+      </section>
+      {/* 11. Design Thoughts / Blog Header */}
+      <section className="mt-32 w-full max-w-4xl mx-auto mb-16 flex flex-col items-center">
+        <div className="text-center flex flex-col items-center select-none">
+          <h2 className="text-4xl md:text-5xl font-black uppercase tracking-tighter text-white leading-[0.85]">
+            Engineering
+          </h2>
+          <h2 className="text-5xl md:text-[6rem] font-black uppercase tracking-tighter text-[#1f1f1f] leading-[0.85] mt-2">
+            Logs
+          </h2>
+        </div>
+      </section>
+
+      {/* 12. Articles List */}
+      <section className="w-full max-w-2xl mx-auto flex flex-col gap-6">
+        
+        {/* Article 1 */}
+        <div className="group flex flex-col cursor-pointer border-b border-white/10 pb-6">
+          <div className="flex justify-between items-start">
+            <h4 className="text-white text-lg md:text-xl font-bold tracking-tight group-hover:text-[#ff5a2c] transition-colors pr-4">
+              Building Full-Stack Apps Entirely on Android
+            </h4>
+            <div className="text-[#ff5a2c] text-xl transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1 flex-shrink-0">
+              ↗
+            </div>
+          </div>
+          <p className="text-[#888888] text-sm md:text-base font-medium mt-3 leading-relaxed">
+            Exploring the workflow of using Termux and Acode to compile Next.js, manage GitHub pipelines, and deploy HTML/JS-based APK wrappers without a traditional PC.
+          </p>
+          <div className="flex justify-between items-center mt-5">
+            <span className="text-[#555555] text-xs font-bold uppercase tracking-wider">July 1, 2026</span>
+            <span className="text-[#555555] text-xs font-bold uppercase tracking-wider group-hover:text-white transition-colors">Read Post</span>
+          </div>
+        </div>
+
+        {/* Article 2 */}
+        <div className="group flex flex-col cursor-pointer border-b border-white/10 pb-6">
+          <div className="flex justify-between items-start">
+            <h4 className="text-white text-lg md:text-xl font-bold tracking-tight group-hover:text-[#ff5a2c] transition-colors pr-4">
+              Prototyping a 16V Variable DC Power Supply
+            </h4>
+            <div className="text-[#ff5a2c] text-xl transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1 flex-shrink-0">
+              ↗
+            </div>
+          </div>
+          <p className="text-[#888888] text-sm md:text-base font-medium mt-3 leading-relaxed">
+            A hardware log detailing the construction process using a transformer, bridge rectifier, and LM317T regulator for safe, adjustable bench power.
+          </p>
+          <div className="flex justify-between items-center mt-5">
+            <span className="text-[#555555] text-xs font-bold uppercase tracking-wider">April 14, 2026</span>
+            <span className="text-[#555555] text-xs font-bold uppercase tracking-wider group-hover:text-white transition-colors">Read Post</span>
+          </div>
+        </div>
+
+        {/* Article 3 */}
+        <div className="group flex flex-col cursor-pointer border-b border-white/10 pb-6">
+          <div className="flex justify-between items-start">
+            <h4 className="text-white text-lg md:text-xl font-bold tracking-tight group-hover:text-[#ff5a2c] transition-colors pr-4">
+              Narrative Design: Lessons from Detroit: Become Human
+            </h4>
+            <div className="text-[#ff5a2c] text-xl transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1 flex-shrink-0">
+              ↗
+            </div>
+          </div>
+          <p className="text-[#888888] text-sm md:text-base font-medium mt-3 leading-relaxed">
+            Analyzing branching dialogue systems and stealth mechanics, and how those UX principles translate to better web architecture and 3D game logic in Godot.
+          </p>
+          <div className="flex justify-between items-center mt-5">
+            <span className="text-[#555555] text-xs font-bold uppercase tracking-wider">March 22, 2026</span>
+            <span className="text-[#555555] text-xs font-bold uppercase tracking-wider group-hover:text-white transition-colors">Read Post</span>
+          </div>
+        </div>
+
+      </section>
+
+      {/* 13. Contact Header */}
+      <section className="mt-32 w-full max-w-4xl mx-auto mb-10 flex flex-col items-center">
+        <div className="text-center flex flex-col items-center select-none">
+          <h2 className="text-4xl md:text-5xl font-black uppercase tracking-tighter text-white leading-[0.85]">
+            Let's Work
+          </h2>
+          <h2 className="text-5xl md:text-[6rem] font-black uppercase tracking-tighter text-[#1f1f1f] leading-[0.85] mt-2">
+            Together
+          </h2>
+        </div>
+      </section>
+
+      {/* 14. Contact Form */}
+      <section className="w-full max-w-2xl mx-auto mb-32">
+        <form className="flex flex-col gap-5" onSubmit={(e) => e.preventDefault()}>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+            <div className="flex flex-col gap-2">
+              <label className="text-[#888888] text-xs font-bold uppercase tracking-wider">Name</label>
+              <input type="text" placeholder="Your Name" className="bg-[#121214] border border-white/5 rounded-xl p-4 text-white placeholder-[#444] focus:outline-none focus:border-[#ff5a2c] transition-colors" />
+            </div>
+            <div className="flex flex-col gap-2">
+              <label className="text-[#888888] text-xs font-bold uppercase tracking-wider">Email</label>
+              <input type="email" placeholder="your@email.com" className="bg-[#121214] border border-white/5 rounded-xl p-4 text-white placeholder-[#444] focus:outline-none focus:border-[#ff5a2c] transition-colors" />
+            </div>
+          </div>
+          
+          <div className="flex flex-col gap-2 mt-2">
+            <label className="text-[#888888] text-xs font-bold uppercase tracking-wider">Subject</label>
+            <select className="bg-[#121214] border border-white/5 rounded-xl p-4 text-white focus:outline-none focus:border-[#ff5a2c] transition-colors appearance-none">
+              <option>Project Inquiry</option>
+              <option>Job Opportunity</option>
+              <option>Just saying hi</option>
+            </select>
+          </div>
+
+          <div className="flex flex-col gap-2 mt-2">
+            <label className="text-[#888888] text-xs font-bold uppercase tracking-wider">Message</label>
+            <textarea rows={4} placeholder="Tell me about your project..." className="bg-[#121214] border border-white/5 rounded-xl p-4 text-white placeholder-[#444] focus:outline-none focus:border-[#ff5a2c] transition-colors resize-none"></textarea>
+          </div>
+
+          <button className="mt-4 bg-[#ff5a2c] hover:bg-[#e0451a] text-white font-black uppercase tracking-widest py-5 rounded-xl transition-colors duration-300 shadow-[0_0_30px_rgba(255,90,44,0.3)]">
+            Submit
+          </button>
+        </form>
       </section>
 
       {/* Stats and Bento Boxes will go here next... */}
