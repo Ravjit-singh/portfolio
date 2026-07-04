@@ -104,58 +104,58 @@ export default function Home() {
       </section>
 
       {/* 6. Projects List */}
-      <section className="w-full max-w-2xl mx-auto flex flex-col gap-1">
+      <section className="w-full max-w-3xl mx-auto flex flex-col gap-8 md:gap-12">
         
-        <div className="group flex items-center justify-between p-3 md:p-4 -mx-4 rounded-2xl hover:bg-[#161616] transition-colors duration-300 cursor-pointer">
-          <div className="flex items-center gap-5 md:gap-6">
-            <div className="w-14 h-14 md:w-[4.5rem] md:h-[4.5rem] bg-[#1a1a1a] rounded-xl flex-shrink-0 relative overflow-hidden">
-               <div className="absolute inset-0 bg-indigo-500/30 mix-blend-overlay"></div>
+        <div className="group flex items-center justify-between cursor-pointer">
+          <div className="flex items-center gap-6 md:gap-8">
+            <div className="w-20 h-20 md:w-32 md:h-32 bg-[#121212] rounded-2xl md:rounded-[1.5rem] flex-shrink-0 relative overflow-hidden border border-white/5 shadow-2xl">
+               <div className="absolute inset-0 bg-indigo-500/20 mix-blend-overlay"></div>
             </div>
             <div className="flex flex-col justify-center">
-              <h4 className="text-white text-lg md:text-xl font-bold tracking-tight mb-1 group-hover:text-[#fc5a2a] transition-colors">Service Linkup</h4>
-              <p className="text-[#888] text-[0.7rem] md:text-xs font-bold uppercase tracking-widest">Web platform & APK wrapper</p>
+              <h4 className="text-white text-xl md:text-[1.75rem] font-bold tracking-tight mb-1 md:mb-2 group-hover:text-[#fc5a2c] transition-colors">Service Linkup</h4>
+              <p className="text-[#666] text-xs md:text-sm font-semibold uppercase tracking-widest">Web platform & APK wrapper</p>
             </div>
           </div>
-          <div className="text-[#fc5a2a] text-lg md:text-xl transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1 font-bold">↗</div>
+          <div className="text-[#fc5a2c] text-sm md:text-base font-bold transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1">↗</div>
         </div>
 
-        <div className="group flex items-center justify-between p-3 md:p-4 -mx-4 rounded-2xl hover:bg-[#161616] transition-colors duration-300 cursor-pointer">
-          <div className="flex items-center gap-5 md:gap-6">
-            <div className="w-14 h-14 md:w-[4.5rem] md:h-[4.5rem] bg-[#1a1a1a] rounded-xl flex-shrink-0 relative overflow-hidden">
-              <div className="absolute inset-0 bg-teal-500/30 mix-blend-overlay"></div>
+        <div className="group flex items-center justify-between cursor-pointer">
+          <div className="flex items-center gap-6 md:gap-8">
+            <div className="w-20 h-20 md:w-32 md:h-32 bg-[#121212] rounded-2xl md:rounded-[1.5rem] flex-shrink-0 relative overflow-hidden border border-white/5 shadow-2xl">
+              <div className="absolute inset-0 bg-teal-500/20 mix-blend-overlay"></div>
             </div>
             <div className="flex flex-col justify-center">
-              <h4 className="text-white text-lg md:text-xl font-bold tracking-tight mb-1 group-hover:text-[#fc5a2a] transition-colors">skillmax_mk2</h4>
-              <p className="text-[#888] text-[0.7rem] md:text-xs font-bold uppercase tracking-widest">React & Supabase platform</p>
+              <h4 className="text-white text-xl md:text-[1.75rem] font-bold tracking-tight mb-1 md:mb-2 group-hover:text-[#fc5a2c] transition-colors">skillmax_mk2</h4>
+              <p className="text-[#666] text-xs md:text-sm font-semibold uppercase tracking-widest">React & Supabase platform</p>
             </div>
           </div>
-          <div className="text-[#fc5a2a] text-lg md:text-xl transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1 font-bold">↗</div>
+          <div className="text-[#fc5a2c] text-sm md:text-base font-bold transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1">↗</div>
         </div>
 
-        <div className="group flex items-center justify-between p-3 md:p-4 -mx-4 rounded-2xl hover:bg-[#161616] transition-colors duration-300 cursor-pointer">
-          <div className="flex items-center gap-5 md:gap-6">
-            <div className="w-14 h-14 md:w-[4.5rem] md:h-[4.5rem] bg-[#1a1a1a] rounded-xl flex-shrink-0 relative overflow-hidden">
-              <div className="absolute inset-0 bg-zinc-600/30 mix-blend-overlay"></div>
+        <div className="group flex items-center justify-between cursor-pointer">
+          <div className="flex items-center gap-6 md:gap-8">
+            <div className="w-20 h-20 md:w-32 md:h-32 bg-[#121212] rounded-2xl md:rounded-[1.5rem] flex-shrink-0 relative overflow-hidden border border-white/5 shadow-2xl">
+              <div className="absolute inset-0 bg-zinc-600/20 mix-blend-overlay"></div>
             </div>
             <div className="flex flex-col justify-center">
-              <h4 className="text-white text-lg md:text-xl font-bold tracking-tight mb-1 group-hover:text-[#fc5a2a] transition-colors">R Journal</h4>
-              <p className="text-[#888] text-[0.7rem] md:text-xs font-bold uppercase tracking-widest">Productivity application</p>
+              <h4 className="text-white text-xl md:text-[1.75rem] font-bold tracking-tight mb-1 md:mb-2 group-hover:text-[#fc5a2c] transition-colors">R Journal</h4>
+              <p className="text-[#666] text-xs md:text-sm font-semibold uppercase tracking-widest">Productivity application</p>
             </div>
           </div>
-          <div className="text-[#fc5a2a] text-lg md:text-xl transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1 font-bold">↗</div>
+          <div className="text-[#fc5a2c] text-sm md:text-base font-bold transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1">↗</div>
         </div>
         
-        <div className="group flex items-center justify-between p-3 md:p-4 -mx-4 rounded-2xl hover:bg-[#161616] transition-colors duration-300 cursor-pointer">
-          <div className="flex items-center gap-5 md:gap-6">
-            <div className="w-14 h-14 md:w-[4.5rem] md:h-[4.5rem] bg-[#1a1a1a] rounded-xl flex-shrink-0 relative overflow-hidden">
+        <div className="group flex items-center justify-between cursor-pointer">
+          <div className="flex items-center gap-6 md:gap-8">
+            <div className="w-20 h-20 md:w-32 md:h-32 bg-[#121212] rounded-2xl md:rounded-[1.5rem] flex-shrink-0 relative overflow-hidden border border-white/5 shadow-2xl">
               <div className="absolute inset-0 bg-red-900/40 mix-blend-overlay"></div>
             </div>
             <div className="flex flex-col justify-center">
-              <h4 className="text-white text-lg md:text-xl font-bold tracking-tight mb-1 group-hover:text-[#fc5a2a] transition-colors">Kaalo</h4>
-              <p className="text-[#888] text-[0.7rem] md:text-xs font-bold uppercase tracking-widest">3D Godot 4 Horror Game</p>
+              <h4 className="text-white text-xl md:text-[1.75rem] font-bold tracking-tight mb-1 md:mb-2 group-hover:text-[#fc5a2c] transition-colors">Kaalo</h4>
+              <p className="text-[#666] text-xs md:text-sm font-semibold uppercase tracking-widest">3D Godot 4 Horror Game</p>
             </div>
           </div>
-          <div className="text-[#fc5a2a] text-lg md:text-xl transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1 font-bold">↗</div>
+          <div className="text-[#fc5a2c] text-sm md:text-base font-bold transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1">↗</div>
         </div>
 
       </section>
