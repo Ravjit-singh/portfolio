@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 720" width="100%" height="100%">
+  <defs>
+    <clipPath id="clip-screen">
+      <rect x="420" y="120" width="700" height="520" />
+    </clipPath>
+  </defs>
+
+  <!-- Brutalist Background -->
+  <rect width="1200" height="720" fill="#050505" />
+
+  <!-- Outer Chassis -->
+  <rect x="40" y="40" width="1120" height="640" fill="#080808" stroke="#1F1F1F" stroke-width="2" />
+
+  <!-- Left Side: Brutalist Telemetry -->
+  <rect x="40" y="40" width="340" height="640" fill="#080808" stroke="#1F1F1F" stroke-width="2" />
+  <text x="80" y="110" fill="#FFFFFF" font-family="'Impact', 'Arial Black', sans-serif" font-size="52" letter-spacing="2">YOUR SECURE</text>
+  <text x="80" y="160" fill="#FF4D26" font-family="'Impact', 'Arial Black', sans-serif" font-size="52" letter-spacing="2">ASSISTANT</text>
+  <rect x="80" y="190" width="80" height="4" fill="#D4FF00" />
+
+  <rect x="80" y="240" width="260" height="60" fill="#000000" stroke="#1F1F1F" stroke-width="1" />
+  <text x="95" y="265" fill="#666666" font-family="'JetBrains Mono', monospace" font-size="10">AGTENTIC TOOL EXECUTION</text>
+  <text x="95" y="285" fill="#FFFFFF" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="bold">WEB DASHBOARD</text>
+
+  <rect x="80" y="320" width="260" height="60" fill="#000000" stroke="#1F1F1F" stroke-width="1" />
+  <text x="95" y="345" fill="#666666" font-family="'JetBrains Mono', monospace" font-size="10">FULL CONTROL</text>
+  <text x="95" y="365" fill="#D4FF00" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="bold">ALLOWS RUNNING LOACL MODELS</text>
+
+  <rect x="80" y="400" width="260" height="60" fill="#000000" stroke="#1F1F1F" stroke-width="1" />
+  <text x="95" y="425" fill="#666666" font-family="'JetBrains Mono', monospace" font-size="10">ONLINE/OFFLINE MODE</text>
+  <text x="95" y="445" fill="#FF4D26" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="bold">API &amp; LOCAL MODEL SUPPORT</text>
+
+  <rect x="80" y="480" width="260" height="60" fill="#000000" stroke="#1F1F1F" stroke-width="1" /> 
+  <text x="95" y="505" fill="#666666" font-family="'JetBrains Mono', monospace" font-size="10">DATA SECURITY</text>
+  <text x="95" y="525" fill="#FFFFFF" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="bold">RUNS ON YOUR MACHINE</text>
+
+  <rect x="80" y="560" width="260" height="60" fill="#000000" stroke="#1F1F1F" stroke-width="1" />
+  <text x="95" y="580" fill="#666666" font-family="'JetBrains Mono', monospace" font-size="10">SUPER EASY SETUP</text>
+  <text x="95" y="605" fill="#D4FF00" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="bold">ONE-COMMAND UNIVERSAL SETUP</text>
+
+  <!-- Right Side: The Screenshot Frame -->
+  <rect x="420" y="80" width="700" height="560" fill="#000000" stroke="#222222" stroke-width="2" />
+
+  <!-- Window Controls -->
+  <rect x="420" y="80" width="700" height="40" fill="#0A0A0A" stroke="#222222" stroke-width="2" />
+  <circle cx="450" cy="100" r="6" fill="#FF4D26" />
+  <circle cx="475" cy="100" r="6" fill="#222222" />
+  <circle cx="500" cy="100" r="6" fill="#222222" />
+  <text x="530" y="104" fill="#555555" font-family="'JetBrains Mono', monospace" font-size="11" letter-spacing="1">VIEWER_NODE_01</text>
+
+  <!-- Screenshot Content -->
+  <g clip-path="url(#clip-screen)">
+    <image href="/rashboard.png" xlink:href="/rashboard.png" x="420" y="120" width="700" height="543" preserveAspectRatio="xMidYMid slice" opacity="0.95" />
+    </g>
+</svg>
